@@ -11,7 +11,7 @@ app.get("/", function(req, res){
 });
 
 app.post("/", function(req, res){
-  const appkey = "77ea8c8544d39422d42cb0004020dbf3";
+  const appkey = "3375f841b905854b517105b79063608d";
   const query = req.body.cityName;
   const unit = "metric";
   const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + ",India&appid=" + appkey + "&units="+ unit +"#"
